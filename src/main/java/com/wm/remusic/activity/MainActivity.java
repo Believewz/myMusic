@@ -63,7 +63,7 @@ public class MainActivity extends BaseActivity implements CardPickerDialog.Click
         barmusic = (ImageView) findViewById(R.id.bar_music);
         drawerLayout = (DrawerLayout) findViewById(R.id.fd);
         mLvLeftMenu = (ListView) findViewById(R.id.id_lv_left_menu);
-
+        System.out.print("updata");
         setToolBar();
         setViewPager();
         setUpDrawer();
@@ -71,6 +71,7 @@ public class MainActivity extends BaseActivity implements CardPickerDialog.Click
             @Override
             public void run() {
                 splashScreen.removeSplashScreen();
+
             }
         }, 3000);
 
