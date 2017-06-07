@@ -12,6 +12,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -64,6 +65,8 @@ public class MainActivity extends BaseActivity implements CardPickerDialog.Click
         drawerLayout = (DrawerLayout) findViewById(R.id.fd);
         mLvLeftMenu = (ListView) findViewById(R.id.id_lv_left_menu);
         System.out.print("updata");
+        System.out.print("version add");
+
         setToolBar();
         setViewPager();
         setUpDrawer();
